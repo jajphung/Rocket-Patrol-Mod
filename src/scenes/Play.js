@@ -5,11 +5,11 @@ class Play extends Phaser.Scene {
 
     preload() {
         // load spritesheet
-        this.load.spritesheet('explosion', './assets/explosion.png', {frameWidth: 64, frameHeight: 32,
+        this.load.spritesheet('explosion', './Assets/explosion.png', {frameWidth: 64, frameHeight: 32,
         startFrame: 0, endFrame: 9});
-        this.load.spritesheet('airship', './assets/airship.png', {frameWidth: 63, frameHeight: 32,
+        this.load.spritesheet('airship', './Assets/airship.png', {frameWidth: 63, frameHeight: 32,
         startFrame: 0, endFrame: 9});
-        this.load.spritesheet('jetship', './assets/jetship.png', {frameWidth: 31, frameHeight: 16,
+        this.load.spritesheet('jetship', './Assets/jetship.png', {frameWidth: 31, frameHeight: 16,
         startFrame: 0, endFrame: 7});
         // load images/tile sprites
         this.load.image('p1rocket', './assets/p1rocket.png');
